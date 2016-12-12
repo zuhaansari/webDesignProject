@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title> Contact Info</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		
+		
+	</head>
+	<body>
+	
+		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+			Menu
+		</button>
+		<div class="collapse navbar-collapse navHeaderCollapse navbar" id="home">
+				
+					<ul class="nav navbar-nav navbar-fixed-top">
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="info.html">About Me</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+					</ul>
+		</div>
+		
+		<div id="con"> 
+		<p> If you have any questions or want to contact me </p>
+		<p> please leave your details and your message below </p>
+		</div>
+		<div class="container padding" id="contact">
+			<form role="form"> 
+				<div class="form-group">
+					<label for="email"> Email: </label>
+					<input type="email" class="form-control" id="email" name="email" placeholder="example@example.com"/>
+				</div>
+				<div class="form-group"> 
+					<label for="name"> Name: </label>
+					<input type="text" class="form-control" id="name" name="name" placeholder="Your name here"/>
+				</div>
+				
+				<div class="form-group"> 
+					<label for="message"> Message: </label>
+					<textarea class="from-control" name="message" id="message" placeholder="Your message here"> </textarea>
+				</div>
+
+				<button type="submit" class="btn btn-default"> Submit</button>
+			</form>
+			<br/>
+		</div>
+	
+	</body>
+
+</html> 

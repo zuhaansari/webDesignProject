@@ -1,0 +1,57 @@
+body{
+
+	background-size: 100%;
+	color: white;
+	background-image:;
+}
+
+@font-face {
+    font-family: ostrich-sans-light;
+    font: url(font/webfonts/ostrich-sans-light.woff);
+}
+
+
+.navbar{
+float:left;
+}
+
+
+h1{
+	text-align: center;
+	font-family: impact;
+	text-shadow: 2px 2px black;
+}
+.jumbotron{
+	background-image: url("sss/images/stroll.jpg");
+	background-size:cover;
+	background:contain;
+	background-position:center;
+	width: 100%;
+	height: 1000px;
+	color: white;
+	max-width:1400px;
+}
+#con{
+	float:right;
+}
+.bio{
+	font-family: impact ;
+	 text-shadow: 2px 2px black;
+}
+p{
+	margin:0 auto;
+}
+.button{
+	font-family:impact;
+    background-color: transparent;
+    color: white;
+}
+.about{
+	font-family:impact;
+    color: white;
+	float:right;
+	
+}
+.img{
+	float:left;
+}
