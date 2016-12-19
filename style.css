@@ -1,7 +1,7 @@
 body{
 	background: url("sss/images/bck.png");
 	background-size: 100%;
-	color: white;
+	color: grey;
 	font-family:stencil;
 }
 
@@ -70,7 +70,7 @@ ul.topnav li a {
 }
 
 .jumbotron{
-	background-image: url("sss/images/sky-min.jpg");
+	background-image: url("sss/images/bridge.jpg");
 	background-size:cover;
 	background:contain;
 	background-position:center;
@@ -78,13 +78,11 @@ ul.topnav li a {
 	height: 1000px;
 	color: white;
 	max-width:1400px;
+	text-align: center;
+	text-shadow: 2px 2px black;
 }
 #con{
 	float:right;
-}
-.bio{
-	text-align: center;
-	text-shadow: 2px 2px black;
 }
 p{
 	margin:0 auto;
