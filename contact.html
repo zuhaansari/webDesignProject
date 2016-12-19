@@ -58,25 +58,46 @@
 			<br/>
 		
 		</div>
-		<div class="alt2"> 
+			<div class="alt2"> 
 			<div class="container">
 			<br/>
-			<footer> &copy; Zuha Ansari 
+			<footer> 
+			<p> <a href="#home"> Back to top </a> </p>
 			<br/> 
-			
 			<a href="https://www.facebook.com/zuhaansari98" >
 				<img src="sss/images/fb.png" />
 			</a>
+
 			<a href="https://ie.linkedin.com/in/zuhaansari"> 
 				<img src="sss/images/linkedin.png" /> 
 			</a>
 			<a href="https://www.instagram.com/zuhaansari"> 
 				<img src="sss/images/inst.png" /> 
 			</a>
-			<p> <a href="#home"> Back to top </a> </p>
+			<br/>
+			<br/>			
+			<p> &copy; Zuha Ansari </p>
 			
 			</footer>
+			
+			<script> $(function() {
+			  $('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				  var target = $(this.hash);
+				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				  if (target.length) {
+					$('html, body').animate({
+					  scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				  }
+				}
+			  });
+			});
+			</script>
+				
 			</div>
+			</div>		
 	</body>
 
 </html> 
