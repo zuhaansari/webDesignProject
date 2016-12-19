@@ -11,29 +11,39 @@
 		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 			Menu
 		</button>
-		<div class="collapse navbar-collapse navHeaderCollapse navbar" id="home">
+		<div id="home">
 				
-					<ul class="nav navbar-nav navbar-fixed-top">
-					<li><a href="index.html"> Home </a></li>
-					<li><a href="info.html">About Me</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="contact.html">Contact Me</a></li>
-					</ul>
+			<ul class="topnav" id="myTopnav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="info.html">About me</a></li>
+				  <li><a href="gallery.html">Gallery</a></li>
+				  <li><a href="contact.html">Contact Me</a></li>
+				  <li class="icon">
+					<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+				  </li>
+				</ul>
+				
 		</div>
- 
+				 
 		
 		
 		<div class="jumbotron">
 		<div class="container">
 			<div class="header">
+				
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 				<h1> ZUHA ANSARI </h1>
-				<p class="bio"> Photographing my life through my smart phone. </p>
+				<p class="bio"> Sharing my life through photos</p>
 				<br/> 
 				<br/> 
 				<br/> 
 				<button class="button" > <a href="#middle"> Learn More </a> </button>
 			</div>
 		</div>
+		
 		</div>
 		<div id="middle">
 		<p> </p>
@@ -47,5 +57,20 @@
 			</div>
 			<script src="http://code.jquery.com/jquery-3.1.1.min.js"> </script>
 			<script src="js/bootstrap.js"> </script>
+			<script> $(function() {
+			  $('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				  var target = $(this.hash);
+				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				  if (target.length) {
+					$('html, body').animate({
+					  scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				  }
+				}
+			  });
+			});
+			</script>
 	</body>
 </html>

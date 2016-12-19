@@ -1,28 +1,57 @@
 body{
-
+	background: url("sss/images/bck.png");
 	background-size: 100%;
 	color: white;
-	background-image:;
+	font-family:stencil;
 }
 
-@font-face {
-    font-family: ostrich-sans-light;
-    font: url(font/webfonts/ostrich-sans-light.woff);
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
 }
 
 
-.navbar{
-float:left;
+ul.topnav li a:hover {
+	background-color: #555;
 }
 
+ul.topnav li.icon {
+	display: none;
+}
 
 h1{
 	text-align: center;
-	font-family: impact;
 	text-shadow: 2px 2px black;
 }
+
+h2{
+	float: left;
+}
+
+#home {
+    display: inline-block;
+    list-style-type: none;
+}
+
 .jumbotron{
-	background-image: url("sss/images/stroll.jpg");
+	background-image: url("sss/images/sky-min.jpg");
 	background-size:cover;
 	background:contain;
 	background-position:center;
@@ -35,22 +64,32 @@ h1{
 	float:right;
 }
 .bio{
-	font-family: impact ;
-	 text-shadow: 2px 2px black;
+	text-align: center;
+	text-shadow: 2px 2px black;
 }
 p{
 	margin:0 auto;
 }
 .button{
-	font-family:impact;
+
     background-color: transparent;
     color: white;
 }
+footer{
+	text-align: center;
+}
 .about{
-	font-family:impact;
-    color: white;
-	float:right;
 	
+    color: black;
+	
+}
+#contact{
+	width: 50%;
+}
+.slider{
+	width:70%;
+	height:50%;
+	margin:0 auto;
 }
 .img{
 	float:left;
