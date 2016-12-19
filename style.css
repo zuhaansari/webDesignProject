@@ -82,11 +82,13 @@ ul.topnav li a {
 	text-shadow: 2px 2px black;
 }
 #con{
-	float:right;
+	text-align:center;
+	
 }
 p{
 	margin:0 auto;
 }
+
 .button{
 
     background-color: transparent;
